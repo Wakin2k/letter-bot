@@ -1,14 +1,15 @@
 INSERT INTO public.web_spot (name,created_at) VALUES
-                                                  ('Rottens (LEFT)','2021-12-23 15:32:28.183291+01'),
-                                                  ('Rottens (RIGHT)','2021-12-23 15:32:33.049427+01'),
+                                                 /* ('Rottens (LEFT)','2021-12-23 15:32:28.183291+01'),
+                                                  ('Rottens (RIGHT)','2021-12-23 15:32:33.049427+01'),*/
                                                   ('Fire Library','2021-12-23 15:32:39.271127+01'),
                                                   ('Energy Library','2021-12-23 15:32:44.499994+01'),
-                                                  ('Ice Library','2021-12-23 15:32:49.83876+01'),
+                                                  ('Ice Library','2021-12-23 15:32:49.83876+01');/*
                                                   ('Cobra Bastion','2021-12-23 15:33:07.429451+01'),
                                                   ('Brachio','2021-12-23 15:33:20.215911+01'),
                                                   ('Ebb & Flow','2021-12-23 15:33:36.752058+01'),
                                                   ('Plag Seal','2021-12-23 15:34:01.774238+01'),
                                                   ('DT Seal','2021-12-23 15:34:06.103447+01');
+                                                  
 INSERT INTO public.web_spot (name,created_at) VALUES
                                                   ('Feru Way','2021-12-23 15:34:10.538304+01'),
                                                   ('Mirror True Asuras','2021-12-23 15:34:24.162201+01'),
@@ -227,3 +228,4 @@ INSERT INTO public.web_spot (name,created_at) VALUES
                                                   ('Okolnir Frost Dragons','2024-03-27 20:40:11.849418+01'),
                                                   ('Issavi (EAST)','2024-04-17 21:50:29.263941+02'),
                                                   ('Upper Roshamuul (Depot)','2024-04-23 20:00:58.57404+02');
+*/
