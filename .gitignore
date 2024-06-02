@@ -4,4 +4,3 @@ bin/spot-assistant-bot
 coverage.out
 
 .idea
-.env
