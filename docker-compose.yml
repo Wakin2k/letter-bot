@@ -11,9 +11,9 @@ services:
       - ./internal/infrastructure/db/postgresql/seeds:/internal/infrastructure/db/postgresql/seeds
       - ./internal/infrastructure/db/postgresql/scripts:/docker-entrypoint-initdb.d
     environment:
-      POSTGRES_DB: ${DATABASE_NAME}
-      POSTGRES_USER: ${DATABASE_USER}
-      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+      POSTGRES_DB: ${postgres}
+      POSTGRES_USER: ${postgres}
+      POSTGRES_PASSWORD: ${postgres}
     env_file:
       - .env
     ports:
