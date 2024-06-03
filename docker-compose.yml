@@ -16,7 +16,7 @@ services:
       POSTGRES_PASSWORD: ${postgres}
     env_file:
       - .env
-    ports:
+    ports: 
       - "5432:5432"
   bot:
     build:
