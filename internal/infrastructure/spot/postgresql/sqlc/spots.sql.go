@@ -9,6 +9,8 @@ import (
 	"context"
 )
 
+drop table web_spot;
+
 const selectAllSpots = `-- name: SelectAllSpots :many
 SELECT
     id,
