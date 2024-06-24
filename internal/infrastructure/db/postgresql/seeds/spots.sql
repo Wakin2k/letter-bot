@@ -1,4 +1,4 @@
-drop table web_spot;
+select * from SelectAllSpots;
 
 INSERT INTO public.web_spot (name,created_at) VALUES
                                                  
