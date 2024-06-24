@@ -381,6 +381,8 @@ ALTER SEQUENCE public.web_reservation_id_seq OWNED BY public.web_reservation.id;
 -- Name: web_spot; Type: TABLE; Schema: public; Owner: -
 --
 
+drop table pubblic.web_spot;
+
 CREATE TABLE public.web_spot (
     id bigint NOT NULL,
     name character varying(120) NOT NULL,

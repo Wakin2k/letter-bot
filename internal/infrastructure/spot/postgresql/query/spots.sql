@@ -1,4 +1,7 @@
 -- name: SelectAllSpots :many
+
+
+
 SELECT
     id,
     name,
