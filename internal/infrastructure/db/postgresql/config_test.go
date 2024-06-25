@@ -13,3 +13,4 @@ func TestDsn(t *testing.T) {
 	// Then
 	snaps.MatchSnapshot(t, output)
 }
+ 
