@@ -18,7 +18,7 @@ func (a *Adapter) BaseSummary() *dto.Summary {
 		Title:       "TibiaLoot.com - Spot Assistant",
 		Description: "Current and upcoming hunts. Times are in **Europe/Berlin**.",
 		Footer: fmt.Sprintf(
-			"Version: %s powered by TibiaLoot.com (%s)", version.Version, time.Now().Format("15:04 01.02"),
+			"Version: %s powered by TibiaLoot.com (%s)", version.Version, time.Now().Format("15:04 on 02 January 2006"),
 		),
 	}
 }
